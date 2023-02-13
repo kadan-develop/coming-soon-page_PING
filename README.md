@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Check it here](https://your-solution-url.com)
+- Solution URL: [Check it here](https://www.frontendmentor.io/solutions/comming-soong-page-ping-M5PjSw6OcG)
 - Live Site URL: [Check it here](https://playful-faloodeh-209de3.netlify.app)
 
 ## My process
