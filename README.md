@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Check it here](https://your-solution-url.com)
+- Live Site URL: [Check it here](https://playful-faloodeh-209de3.netlify.app)
 
 ## My process
 
