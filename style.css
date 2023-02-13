@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: hsl(223, 87%, 63%);
+  --secondary-blue: hsl(222, 96%, 72%);
+  --secondary-red: hsl(354, 100%, 66%);
+  --gray: hsl(0, 0%, 59%);
+  --dark-blue: hsl(209, 33%, 12%);
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  margin: 60px 0 20px 0;
+}
+
+.text-content {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.3em;
+  font-weight: 300;
+  color: var(--gray);
+  padding-bottom: 20px;
+}
+
+span {
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.text-content > p {
+  color: var(--dark-blue);
+  padding-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 50px;
+}
+
+input {
+  position: relative;
+  width: 380px;
+  padding: 17px 20px;
+  border-radius: 50px;
+  border: 0.5px solid var(--gray);
+  margin-right: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-family: inherit;
+  color: var(--gray);
+  font-size: 1.1em;
+}
+
+.btn {
+  background-color: var(--primary);
+  width: 180px;
+  padding: 17px 20px;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.7em;
+  cursor: pointer;
+  box-shadow: hsl(223, 81%, 90%) 0px 10px 15px -5px,
+    hsl(223, 81%, 90%) 0px 4px 6px 0px;
+}
+
+.btn:hover {
+  background-color: var(--secondary-blue);
+}
+
+.image-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.image-section > img {
+  width: 47%;
+}
+
+.social-media {
+  display: flex;
+  gap: 30px;
+}
+
+ion-icon {
+  color: var(--primary);
+  font-size: 15px;
+}
+
+ion-icon:hover {
+  font-size: 20px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.error-msg {
+  display: block;
+  font-size: 0.6em;
+  color: var(--secondary-red);
+  font-family: inherit;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+.copywright {
+  font-size: 0.6em;
+  color: var(--gray);
+  margin: 10px 0 25px 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  .logo img {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 1.3em;
+  }
+
+  .text-content p {
+    font-size: 0.7em;
+  }
+
+  form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+    width: 330px;
+    padding: 15px 20px;
+    margin: 0 0 10px 0;
+  }
+
+  .btn {
+    width: 330px;
+    margin: 0;
+  }
+
+  .image-section > img {
+    width: 90%;
+  }
+
+  .image-section {
+    margin-bottom: 100px;
+  }
+
+  ion-icon {
+    font-size: 20px;
+  }
+
+  .error-msg {
+    position: absolute;
+    top: 55px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
